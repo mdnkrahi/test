@@ -7,5 +7,10 @@ pipeline {
                 sh 'ls'
             }
         }
+		stage('Hello2') {
+            steps {
+                sh 'pwd'
+            }
+        }
     }
 }
