@@ -6,9 +6,6 @@ pipeline {
             steps {
                 echo 'Hello World'
             }
-			 steps {
-                sh 'ls'
-            }
         }
     }
 }
