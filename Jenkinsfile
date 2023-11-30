@@ -1,6 +1,7 @@
 pipeline {
 	agent any
 	
+	stages {
 		stage('Deploy Image') {
 			steps{
 				script {
@@ -8,4 +9,5 @@ pipeline {
 				}
 			}
 		}
+	}
 }
