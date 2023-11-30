@@ -5,7 +5,7 @@ pipeline {
 		stage('Deploy Image') {
 			steps{
 				script {
-				sh 'apt install docker.io -y'
+				sh 'sudo apt install docker.io -y'
 				}
 			}
 		}
